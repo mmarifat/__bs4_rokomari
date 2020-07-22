@@ -1,14 +1,4 @@
-# rokomari-scrap <br/>
-This module scraps details from rokomari.com
- 
- # Usage:
- It can be used in two ways:<br/>
-<h6>MySQL Database</h6>
-To store as MySQL database, simply import rokomari.sql into myadmin and run scrapToMysql.py
-<h6>Export as CSV</h6>
-To export as CSV (utf-8), simply run scrapToCsv.py
-
-# BeautifulSoup Scraping
+# BeautifulSoup Scraping Rokomari
 
 ## Introduction
 
@@ -25,13 +15,13 @@ pip install -r requirements.txt
 
 ### Start
 ```bash
-# For csv output
+<h6>Export as CSV (utf-8)</h6>
 python3 scrapToCsv.py
 or (for python2)
 python scrapToCsv.py
 
-# For sql output
-import rokomari.sql then
+<h6>MySQL Database</h6>
+import rokomari.sql into phpMyAdmin then
 python3 scrapToMysql.py
 or (for python2)
 python scrapToMysql.py
