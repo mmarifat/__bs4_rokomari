@@ -41,7 +41,7 @@ try:
             content.append([bookTitle, bookAuthor, bookStatus, bookOrgPrice, bookPrice])
             print(content)
 
-            with open("rokomariBookFair2020.csv", 'a', newline='', encoding='utf-8') as csvfile:
+            with open("rokomari.csv", 'a', newline='', encoding='utf-8') as csvfile:
                 csvfile.write('\ufeff')
                 writer = csv.writer(csvfile, quoting=csv.QUOTE_NONNUMERIC, delimiter=',')
                 writer.writerows(content)
